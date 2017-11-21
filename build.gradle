@@ -21,6 +21,8 @@ repositories {
 
 dependencies {
   implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+  implementation group: 'org.apache.commons', name: 'commons-math3', version: '3.6.1'
+  testImplementation group: 'io.kotlintest', name: 'kotlintest', version: '2.0.7'
   testImplementation 'junit:junit:4.11'
   testImplementation "org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version"
 }
