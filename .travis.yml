@@ -1,4 +1,3 @@
-# Only allow on one branch till we're happy
 branches:
   only:
   - master
