@@ -1,5 +1,5 @@
 # Only allow on one branch till we're happy
 branches:
   only:
-  - travis
+  - master
 language: java
